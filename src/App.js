@@ -1,16 +1,29 @@
 import React, { Component } from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom'
 import './App.css';
 
 import TopBar from './components/topBar/topBar';
 import Footer from './components/footer/footer';
-import Content from './content';
+import LandingPage from './components/landingPage/landingPage';
+import ContactUsPage from './components/contactUs/contactUsPage';
+import BranchesPage from './components/branchesPage/branchesPage';
+
 
 class App extends Component {
   render() {
     return (
       <div>
         <TopBar />
-        <Content />
+        <div className="content">
+          <main>
+            <Switch>
+              <Route path="/" exact component={LandingPage}/>
+              <Route path="/contact-us" component={ContactUsPage}/>
+              <Route path="/branches" component={BranchesPage}/>
+              <Redirect to="/" />
+            </Switch>
+          </main>
+        </div>
         <Footer />
       </div>
     );
