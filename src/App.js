@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom'
 import './App.css';
 
+import ScrollToTop from 'react-scroll-up';
+
 import TopBar from './components/topBar/topBar';
 import Footer from './components/footer/footer';
 import LandingPage from './components/landingPage/landingPage';
@@ -24,6 +26,9 @@ class App extends Component {
             </Switch>
           </main>
         </div>
+        <ScrollToTop showUnder={100} duration={700}>
+          <span>UP</span>
+        </ScrollToTop>
         <Footer />
       </div>
     );
