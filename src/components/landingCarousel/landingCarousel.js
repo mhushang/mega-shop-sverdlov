@@ -28,7 +28,7 @@ class LandingCarousel extends Component{
                         </div>
                         <img src={girlInDark} alt="girl in dark"/>
                     </Carousel.Item>
-                    {/*<Carousel.Item className="landing-carousel-item back-to-school">
+                    <Carousel.Item className="landing-carousel-item back-to-school">
                         <div className="item-text">
                             <div>Скидки</div>
                             <div className="percentage">50%</div>
@@ -58,7 +58,7 @@ class LandingCarousel extends Component{
                         </div>
                         </div>
                         <img src={boots} alt="boots"/>
-                    </Carousel.Item>*/}
+                    </Carousel.Item>
                 </Carousel>
             </div>
         );

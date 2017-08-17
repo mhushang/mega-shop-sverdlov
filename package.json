@@ -2,7 +2,7 @@
   "name": "mega-shop-sverdlov",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://mhushang.github.io/mega-shop-sverdlov",
+  "homepage": "http://mega-shop-sverdlov.github.io/",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "node-sass-chokidar": "0.0.3",
