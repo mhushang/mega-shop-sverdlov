@@ -3,7 +3,7 @@
         min-height: 80px;
         border-radius: 0;
         border: none;
-        background-color: black;
+        background:rgba(28,47,74,0.9);
         background-image: none;
         display: flex;
         align-items: flex-end;
@@ -12,4 +12,21 @@
     .active-link{
         color: red!important;
     }
+
+    a.nav-link {
+        &:after {
+          content: ''!important;
+          border-bottom: 1px solid!important;
+          opacity: 0!important;
+          -webkit-transition: opacity 0.35s, -webkit-transform 0.35s!important;
+          transition: opacity 0.35s, transform 0.35s!important;
+          -webkit-transform: scale(0, 1)!important;
+          transform: scale(0, 1)!important;
+        }
+        &:hover:after {
+          opacity: 1!important;
+          -webkit-transform: scale(1)!important;
+          transform: scale(1)!important;
+        }
+      }
 }

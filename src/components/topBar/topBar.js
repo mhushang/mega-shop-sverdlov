@@ -18,10 +18,10 @@ class TopBar extends Component {
           <Navbar.Collapse>
             <ul className="nav navbar-nav">
               <li>
-                <NavLink to="/contact-us" activeClassName="active-link">Link1</NavLink>
+                <NavLink to="/contact-us" activeClassName="active-link"  className="nav-link">Link1</NavLink>
               </li>
               <li>
-                <NavLink to="/branches" activeClassName="active-link">Link2</NavLink>
+                <NavLink to="/branches" activeClassName="active-link" className="nav-link">Link2</NavLink>
               </li>
               <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1}>Action</MenuItem>
