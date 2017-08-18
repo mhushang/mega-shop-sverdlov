@@ -12,7 +12,6 @@ class Footer extends Component {
         <div className="footer">
             <div className="footer-first-level text-center">
               <div className="mega-logo">M E G A</div>
-              kher kher kher kher kher kher kher kher kher
             </div>
             <div className="footer-second-level">
               <Grid>

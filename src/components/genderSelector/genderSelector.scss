@@ -24,9 +24,6 @@
             transform: scale(1.09);
         }
         .female_label{
-            &:hover{
-                border-bottom: 3px solid #7D4152;
-            }
             cursor: pointer;
             position: absolute;
             left: 0;
@@ -56,9 +53,6 @@
             transform: scale(1.09);
         }
         .male_label{
-            &:hover{
-                border-bottom: 3px solid black;
-            }
             cursor: pointer;
             position: absolute;
             right: 0;
