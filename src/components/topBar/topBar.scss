@@ -10,23 +10,18 @@
         margin: 0;
     }
     .active-link{
-        color: red!important;
+        color:white!important;
     }
-
-    a.nav-link {
-        &:after {
-          content: ''!important;
-          border-bottom: 1px solid!important;
-          opacity: 0!important;
-          -webkit-transition: opacity 0.35s, -webkit-transform 0.35s!important;
-          transition: opacity 0.35s, transform 0.35s!important;
-          -webkit-transform: scale(0, 1)!important;
-          transform: scale(0, 1)!important;
-        }
-        &:hover:after {
-          opacity: 1!important;
-          -webkit-transform: scale(1)!important;
-          transform: scale(1)!important;
-        }
-      }
+}
+.favorites-icon{
+    height: 15px;
+    margin-right: 10px;
+    margin-top: -3px;
+    opacity: 0.4;
+}
+.geo-marker{
+    height: 20px;
+    margin-right: 5px;
+    margin-top: -3px;
+    opacity: 0.5;
 }

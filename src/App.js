@@ -27,7 +27,7 @@ class App extends Component {
           </main>
         </div>
         <ScrollToTop showUnder={100} duration={700}>
-          <span>UP</span>
+          <div className="up-button">В В Е Р Х</div>
         </ScrollToTop>
         <Footer />
       </div>

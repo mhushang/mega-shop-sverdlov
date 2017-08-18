@@ -14,7 +14,7 @@
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.11",
     "react-scroll-up": "^1.3.1",
-    "react-yandex-maps": "^2.0.0"
+    "yandex-map-react": "^1.0.0"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
